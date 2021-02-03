@@ -11,6 +11,10 @@
     letter-spacing: 2px;
 }
 
+.nav--hr:not(:last-of-type){
+    margin-right: 140px;
+}
+
 body{
     font-family: Roboto, sans-serif;
 }
@@ -21,24 +25,6 @@ body{
     justify-content: space-around;
     margin-top: 32px;
     margin-bottom: 32px;
-}
-
-.home {
-    margin-right: 70px;
-}
-
-.photoapp{
-    margin-left: 70px;
-    margin-right: 70px;
-}
-
-.design{
-    margin-left: 70px;
-    margin-right: 70px;
-}
-
-.download{
-    margin-left: 70px;
 }
 
 .main--photo{
@@ -83,6 +69,7 @@ h2{
     color: #FFF;
     width: 175px;
     height: 50px;
+    margin-top: 30px;
 }
 
 .foot--bar{
