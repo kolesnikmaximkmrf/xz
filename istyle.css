@@ -3,7 +3,7 @@
     src: url(/xz/GothamRoundedLight_21020.ttf);
 }
 
-.navhr{
+.nav--hr{
     text-decoration: none;
     color: #00AE95 !important;
     font-size: 24px;
@@ -15,7 +15,7 @@ body{
     font-family: Roboto, sans-serif;
 }
 
-.navbar{
+.nav--bar{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -41,13 +41,14 @@ body{
     margin-left: 70px;
 }
 
-.main-photo{
+.main--photo{
     position: relative;
     margin-left: -8px;
     width: 101%;
 }
 
-.text-and-button{
+.text--and--button{
+    text-align: center;
     background-image: url("/xz/Fon.png");
     padding-top: 30px;
     padding-bottom: 110px;
@@ -55,7 +56,6 @@ body{
 }
 
 h2{
-    text-align: center;
     font-size: 28px;
     word-spacing: 8px;
     letter-spacing: 4px;
@@ -63,10 +63,9 @@ h2{
     margin-top: 40px;
 }
 
-.simpletext{
+.simple--text{
     line-height: 25px;
     font-weight: 1000;
-    text-align: center;
     margin-left: 150px;
     margin-right: 150px;
     color: #484848;
@@ -75,12 +74,7 @@ h2{
     margin-top: 30px;
 }
 
-.start-button-div{
-    text-align: center;
-    margin-top: 40px;
-}
-
-.start-button{
+.start--button{
     position: relative;
     font-family: GothamRounded, sans-serif;
     font-size: 12px;
@@ -91,7 +85,7 @@ h2{
     height: 50px;
 }
 
-.footbar-div{
+.foot--bar{
     padding-top: 35px;
     padding-bottom: 40px;
     display: flex;
@@ -100,7 +94,7 @@ h2{
     background-image: url(/xz/Sfondo.png);
 }
 
-.footbar-href{
+.footbar--href{
     font-size: 20px;
     text-decoration: none;
     color: #343434 !important;
