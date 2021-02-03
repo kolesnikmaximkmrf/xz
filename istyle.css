@@ -16,12 +16,14 @@ body{
 }
 
 .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     margin-top: 32px;
     margin-bottom: 32px;
 }
 
 .home {
-    margin: 500px;
     margin-right: 70px;
 }
 
@@ -37,13 +39,19 @@ body{
 
 .download{
     margin-left: 70px;
-    margin-right: 70px;
 }
 
 .main-photo{
     position: relative;
     margin-left: -8px;
     width: 101%;
+}
+
+.text-and-button{
+    background-image: url("/xz/Fon.png");
+    padding-top: 30px;
+    padding-bottom: 110px;
+    margin: -10px -8px 0 -8px;
 }
 
 h2{
@@ -83,16 +91,13 @@ h2{
     height: 50px;
 }
 
-.fon{
-    position: absolute;;
-    margin-top: -230px;
-    width: 101%;
-    z-index: -1;
-}
-
 .footbar-div{
-    margin-top: 130px;
-    margin-bottom: 40px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(/xz/Sfondo.png);
 }
 
 .footbar-href{
@@ -106,7 +111,7 @@ h2{
 .credits{
     border-right: 2px solid #00AE95;
     padding: 0 10px;
-    margin: 0 -10px 0 250px;
+    margin: 0 -10px;
 }
 
 .privacy{
@@ -116,15 +121,8 @@ h2{
 }
 
 .copyright{
-    margin-left: 600px;
     font-size: 17px;
     color: #484848;
     font-weight: bold;
     letter-spacing: 1px;
-}
-
-.fon-bottom{
-    position: absolute;;
-    width: 2%;
-    z-index: -2;
 }
