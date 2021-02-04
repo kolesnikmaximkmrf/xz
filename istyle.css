@@ -15,6 +15,14 @@
     margin-right: 140px;
 }
 
+.home{
+    margin-left: 400px;
+}
+
+.download{
+    margin-right: 400px;
+}
+
 body{
     font-family: Roboto, sans-serif;
 }
@@ -35,10 +43,9 @@ body{
 
 .text--and--button{
     text-align: center;
-    background-image: url("/xz/Fon.png");
-    padding-top: 30px;
+    background-image: url(../xz/Fon.png);
     padding-bottom: 110px;
-    margin: -10px -8px 0 -8px;
+    margin: 0 -8px 0 -8px;
 }
 
 h2{
@@ -65,7 +72,7 @@ h2{
     font-family: GothamRounded, sans-serif;
     font-size: 12px;
     border: none;
-    background-image: url(/xz/Rettangolo\ 2.png);
+    background-image: url(../xz/Rettangolo\ 2.png);
     color: #FFF;
     width: 175px;
     height: 50px;
@@ -73,12 +80,11 @@ h2{
 }
 
 .foot--bar{
-    padding-top: 35px;
-    padding-bottom: 40px;
+    padding: 35px 175px 40px 175px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-image: url(/xz/Sfondo.png);
+    justify-content: space-between;
+    background-image: url(../xz/Sfondo.png);
 }
 
 .footbar--href{
@@ -87,18 +93,21 @@ h2{
     color: #343434 !important;
     font-weight: bold;
     letter-spacing: 2px;
+
 }
 
 .credits{
     border-right: 2px solid #00AE95;
     padding: 0 10px;
-    margin: 0 -10px;
 }
 
 .privacy{
     border-right: 2px solid #00AE95;
     padding: 0 10px;
-    margin: 0 5px;
+}
+
+.our--teams{
+    padding-left: 7px;
 }
 
 .copyright{
